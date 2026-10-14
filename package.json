@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-api-backend",
+  "version": "1.0.0",
+  "description": "NodeJS backend tutorial",
+  "license": "ISC",
+  "author": "Gen Vikat",
+  "type": "module",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "tsx src/server.ts"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
